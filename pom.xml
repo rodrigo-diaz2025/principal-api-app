@@ -38,13 +38,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>1ab616c0-dfba-4373-9f98-c7df0aeacc7c</groupId>
-			<artifactId>principal-api</artifactId>
-			<version>1.0.2</version>
-			<classifier>raml</classifier>
-			<type>zip</type>
-		</dependency>
-		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-apikit-module</artifactId>
 			<version>1.11.6</version>
@@ -61,6 +54,13 @@
 			<artifactId>mule-sockets-connector</artifactId>
 			<version>1.2.6</version>
 			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
+			<groupId>1ab616c0-dfba-4373-9f98-c7df0aeacc7c</groupId>
+			<artifactId>principal-api</artifactId>
+			<version>1.0.3</version>
+			<classifier>raml</classifier>
+			<type>zip</type>
 		</dependency>
 	</dependencies>
 
